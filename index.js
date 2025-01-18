@@ -32,4 +32,4 @@ const describeTemperature = () => {
 const howItFeels = describeTemperature();
 
 // Send alert to user 
-alert(`${getFahrenheitTemp} converts to ${conversionTemp} celcius and that feels ${howItFeels}.`);
+alert(`${getFahrenheitTemp} converts to ${Math.round(conversionTemp)} celcius and that feels ${howItFeels}.`);
